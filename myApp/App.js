@@ -3,14 +3,13 @@ import React, { useState } from 'react';
 import { Image, StyleSheet, Text, TouchableOpacity, View, } from "react-native";
 
 import { Exec1 } from './src/components/04082023/Exec1';
+import Visible from './src/screens/Visible';
 
 export default function App() {
-  const [contador, setContador]= useState(0);
+
 
   return (
-    <View style={styles.card}>
-    <Text></Text>
-</View>
+   <Visible/>
 )
 }
 
